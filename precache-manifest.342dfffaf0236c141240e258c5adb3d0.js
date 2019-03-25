@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/react-awal-web3/static/css/main.30db4284.chunk.css"
   },
   {
-    "revision": "071d53818637d5beba989f80c3698643",
+    "revision": "ea682c0415a8070131a5da07cf4ac8a1",
     "url": "/react-awal-web3/index.html"
   }
 ];
