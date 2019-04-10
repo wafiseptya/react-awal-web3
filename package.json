@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://wafiseptya.github.io/react-awal-web3",
   "dependencies": {
+    "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -20,6 +21,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "https://api.rajaongkir.com/",
   "browserslist": [
     ">0.2%",
     "not dead",
