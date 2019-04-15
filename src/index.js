@@ -24,7 +24,7 @@ const items = [
     },
 
     {
-        name: 'Tab 4',
+        name: 'Calculator',
         color: 'blue',
         gambar: 'blue.png'
     },
