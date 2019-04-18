@@ -97,13 +97,13 @@ class App extends Component {
             <div className="row">
               <div className="col-md-4 p-0">
                 <div className="input-group">
-                  <input type="number" ref="a" className="form-control" placeholder="input 1"></input>
+                  <input type="number" ref="a" className="form-control" onChange={this.calculate.bind(this)} placeholder="input 1"></input>
                 </div>
               </div>
 
               <div className="col-md-1 p-0">
                 <div className="input-group">
-                  <select type="number" ref="operator" className="form-control" placeholder="input 1">
+                  <select type="number" ref="operator" onChange={this.calculate.bind(this)} className="form-control" placeholder="input 1">
                     <option value="+">+</option>
                     <option value="-">+</option>
                     <option value="*">x</option>
@@ -114,7 +114,7 @@ class App extends Component {
 
               <div className="col-md-4 p-0">
                 <div className="input-group">
-                  <input type="number" ref="b" className="form-control" placeholder="input 2"></input>
+                  <input type="number" ref="b" className="form-control" onChange={this.calculate.bind(this)} placeholder="input 2"></input>
                 </div>
               </div>
               <button className="col-md-3 btn btn-primary" onKeyPress={this.kalkulator()}>Pencet Gan</button>
