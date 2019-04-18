@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/react-awal-web3/static/js/runtime~main.3610d922.js"
   },
   {
-    "revision": "e1dd19d067663daf9837",
-    "url": "/react-awal-web3/static/js/main.91b5f33a.chunk.js"
+    "revision": "ddadf416907fd9f8fdfc",
+    "url": "/react-awal-web3/static/js/main.77b4d946.chunk.js"
   },
   {
     "revision": "cfbda0e9061432ca6501",
     "url": "/react-awal-web3/static/js/2.f213e47f.chunk.js"
   },
   {
-    "revision": "e1dd19d067663daf9837",
+    "revision": "ddadf416907fd9f8fdfc",
     "url": "/react-awal-web3/static/css/main.1d8ee424.chunk.css"
   },
   {
-    "revision": "dac93d84ac01e62b92c734cdd8f58a8f",
+    "revision": "99be0571315eff6beb6644cf139a6552",
     "url": "/react-awal-web3/index.html"
   }
 ];
