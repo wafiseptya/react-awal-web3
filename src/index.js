@@ -18,7 +18,7 @@ const items = [
     },
 
     {
-        name: 'Tab 3',
+        name: 'Profile',
         color: 'green',
         gambar: 'green.png'
     },
