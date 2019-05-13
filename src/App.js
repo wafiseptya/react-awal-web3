@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Profile from './Profile.js';
 import Kalkulator from './Kalkulator.js';
+import Main from './Main.js';
+import toast from 'toasted-notes' 
+import 'toasted-notes/src/styles.css';
 
 class App extends Component {
   constructor(props) {
@@ -15,6 +18,7 @@ class App extends Component {
         gambar: 'red.png'
       },
     };
+
   }
 
   clicked(menu){
@@ -37,6 +41,8 @@ class App extends Component {
       
     }else if (param == 'Profile') {
       return <Profile name = 'hanif wafi s'/>
+    }else if (param == 'Main'){
+      return <Main/>;
     }else {
       return(
         <div>

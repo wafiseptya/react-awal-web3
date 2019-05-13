@@ -12,7 +12,7 @@ const items = [
     },
 
     {
-        name: 'Tab 2',
+        name: 'Main',
         color: 'yellow',
         gambar: 'yellow.png'
     },
