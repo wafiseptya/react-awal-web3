@@ -18,6 +18,9 @@ class Home extends Component {
           lastName: `${data.name.last}` ,
           location: `${data.location.state}, ${data.nat}` ,
           image: `${data.picture.large}` ,
+          email: `${data.email}` ,
+          username: `${data.login.username}` ,
+          password: `${data.login.password}` ,
 
         }
       )))
@@ -34,14 +37,16 @@ class Home extends Component {
       <div className="boxWhite">
         {
           items.length > 0 ? items.map(item => {
-            const {firstName, lastName, location, image} = item;
+            const {firstName, lastName, location, image, email, username, password} = item;
             return(
-              <div>
+              <div className="bgCircle">
                 <center><img src={image} alt={firstName} className="circle"/>
                 </center><br/>
                 <div className="ctr">
                   {firstName} {lastName}<br/>
-                  {location}
+                  {email}<br/>
+                  {username}<br/>
+                  {password}<br/>
                 </div>
               </div>
             );
